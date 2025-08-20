@@ -6,8 +6,6 @@
 
 End-to-end ML project to detect **fraudulent credit card transactions**. It covers **EDA → preprocessing → imbalanced learning (SMOTE) → model training/evaluation → real-time inference via Flask API**.
 
-> 🇧🇷 Leia também: [README-pt.md](README-pt.md) (opcional)
-
 ---
 
 ## 📋 Table of Contents
@@ -45,7 +43,6 @@ This project builds a **binary classifier** to identify rare fraud cases in a hi
 ## 🧰 Tech Stack
 - **Python**, **scikit-learn**, **imblearn (SMOTE)**, **pandas**, **numpy**, **matplotlib**
 - **Flask** for REST API
-- (Optional) **Docker** for containerized run
 
 ---
 
@@ -88,10 +85,11 @@ Fraud-Detection-System/
 - Git
 
 **Installation**
+### 1) Clone
 ```bash
-# 1) Clone
 git clone https://github.com/gustavochotti/Fraud-Detection-System.git
 cd Fraud-Detection-System
+```
 
 # 2) Create & activate venv
 python -m venv venv
