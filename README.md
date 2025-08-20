@@ -19,7 +19,6 @@ End-to-end ML project to detect **fraudulent credit card transactions**. It cove
   - [API Inference](#2-api-inference)
   - [Batch Inference (CSV)](#3-batch-inference-csv)
 - [Results](#-results)
-- [Roadmap](#-roadmap)
 - [License](#-license)
 
 ---
@@ -78,13 +77,13 @@ Fraud-Detection-System/
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 **Prerequisites**
 - Python **3.9+**
 - Git
 
-# **Installation**
+## **Installation**
 ## 1) Clone
 ```bash
 git clone https://github.com/gustavochotti/Fraud-Detection-System.git
@@ -114,7 +113,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ Usage
+# 🛠️ Usage
 
 ### 1) Train
 ```bash
@@ -140,21 +139,12 @@ python src/predict_from_csv.py --filepath data/novas_transacoes.csv
 
 ---
 
-## 📊 Results
+# 📊 Results
 - **Confusion Matrix**: strong Recall on fraud class (minimizing false negatives).  
 - **Top Features** (model-dependent): often `V14`, `V4`, `V3`.  
 See `reports/` for plots (add screenshots to this section for portfolio appeal).
 
 ---
 
-## 🗺️ Roadmap
-- Threshold tuning & probability calibration
-- Experiment tracking (e.g., MLflow)
-- Docker image & simple deploy (Render/Fly.io)
-- Add unit tests for preprocessing/predict pipeline
-- Add `/health` and `/version` endpoints to API
-
----
-
-## 📄 License
+# 📄 License
 MIT — see [LICENSE](LICENSE).
