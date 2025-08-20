@@ -1,0 +1,15 @@
+# --- Core para Análise de Dados e Machine Learning ---
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+imbalanced-learn==0.12.3
+
+# --- Bibliotecas para Visualização ---
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# --- Framework para a API ---
+Flask==3.0.3
+
+# --- Para salvar/carregar os modelos ---
+joblib==1.4.2
