@@ -40,7 +40,7 @@ This project builds a **binary classifier** to identify rare fraud cases in a hi
 ---
 
 ## 🧰 Tech Stack
-- **Python**, **scikit-learn**, **imblearn (SMOTE)**, **pandas**, **numpy**, **matplotlib**
+- **Python**, **scikit-learn**, **imblearn (SMOTE)**, **pandas**, **numpy**, **matplotlib**, **seaborn**
 - **Flask** for REST API
 
 ---
