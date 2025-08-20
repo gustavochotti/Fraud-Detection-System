@@ -85,20 +85,28 @@ Fraud-Detection-System/
 - Git
 
 **Installation**
-### 1) Clone
+## 1) Clone
 ```bash
 git clone https://github.com/gustavochotti/Fraud-Detection-System.git
 cd Fraud-Detection-System
 ```
 
-# 2) Create & activate venv
+## 2) Create & activate venv
+```bash
 python -m venv venv
-# Linux/Mac
+```
+### Linux/Mac
+```bash
 source venv/bin/activate
-# Windows
+```
+```bash
+### Windows
+```
+```bash
 .\venv\Scripts\activate
-
-# 3) Install deps
+```
+## 3) Install deps
+```bash
 pip install -r requirements.txt
 ```
 
