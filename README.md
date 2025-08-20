@@ -84,7 +84,7 @@ Fraud-Detection-System/
 - Python **3.9+**
 - Git
 
-**Installation**
+# **Installation**
 ## 1) Clone
 ```bash
 git clone https://github.com/gustavochotti/Fraud-Detection-System.git
